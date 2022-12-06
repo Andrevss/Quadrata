@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login | Quadrata</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" style="width: 80%;" alt="">
+      </div>
+      <div class="bar">
+        <div class="inputs-nav">
+          <div class="input-nav">
+            <label id= 'loginLaber'for="nome">E-mail ou CPF:</label>
+            <input type="text" name="nome" id="login" placeholder="Digite seu email ou telefone" required style="height: 15px; width: 200px;">
+          </div>
+          <div class="input-nav">
+            <label id="senhaLabel" for="nome">Senha:</label>
+            <input type="password" name="nome" id="senha" placeholder="Digite sua senha" required style="height: 15px; width: 200px;">
+            <p><u>Esqueci minha senha</u></p>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="button-submit1">
+          <input onclick="entrar()" type="submit" value="Entrar">
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="left">
+        <img src="img/principal.png" alt="" style="height: 671px; width: 735px;">
+      </div>
+
+      <div class="right">
+        <div class="form">
+          <h1>Crie sua conta.</h1>
+          <h1>É rápido e você pode concluir depois.</h1>
+          <div class="input-group">
+            <div class="input-box">             
+              <input type="text" name="nome" id="nome" placeholder="Nome (mínimo 2 caracteres)" required style="height: 15px; width: 200px;">
+              
+              <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome (mínimo 2 caracteres)" required style="height: 15px; width: 200px;">
+              
+            </div>
+            
+            <div class="input-box"> 
+            <input type="email" name="email" id="email" placeholder="E-mail ou telefone" required style="height: 15px; width: 442px;">
+            
+            </div>
+            
+            <div class="input-box">
+              <input type="password" name="senhaone" id="senhaone" placeholder="Senha (mínimo 6 caracteres)" required style="height: 15px; width: 200px;">
+              
+              <div class="input-box">
+                <input type="password" name="senha" id="senhatwo" placeholder="Repita a senha" required style="height: 15px; width: 210px;">
+                
+              </div>
+            </div>
+          <div class="termos">
+            <p>Ao clicar em Aceite e inscreva-se, você aceita o <a href="">Contrato do Usuário</a>, a <a href="">Política de Privacidade</a> e a <a href="">Política de Cookies</a> da Quadrata.</p>
+          </div>
+          <div class="button-submit">
+             <input type="submit" onclick="cadastrar()" value="Aceite e Inscreva-se">
+          </div>
+          <div class="pessoa">
+            <img src="img/person.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+    <footer>
+      <h2>Quadrata © Todos os direitos reservados</h2>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

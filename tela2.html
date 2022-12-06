@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.css">
+    <title>Cadastro | Quadrata</title>
+    <link rel="stylesheet" href="tela2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="img/logo.png" style="width: 63%;" alt="">
+        </div>
+    </header>
+
+    <section>
+        <div class="left">
+                <p id="subtitulo">Olá, Usuário! Complete ou atualize o seu perfil com informações adicionais.</p>
+                <h4>Campos com * são obrigatórios</h4>
+                <img class="inputimage" src="https://via.placeholder.com/200" height="150px" width="150px"/>         
+                <fieldset class="agrupamento">
+                    <div class="campo">
+                        <label for="CPF">CEP*</label>
+                        <input type="text" name="CEP" id="CEP" placeholder="00-000.010">
+                    </div>
+                    <div class="campo">
+                        <label for="Rua">Rua*</label>
+                        <input type="text" name="Rua" id="Rua" placeholder="Rua das Alamedas">
+                    </div>
+                </fieldset>
+                <div class="telefone">
+                    <div class="campo">
+                        <label for="telefone">Telefone*</label>
+                        <input type="text" name="telefone" id="telefone" placeholder="(00) 0.0000-1111" required style="height: 15px; width: 170px;">
+                    </div>
+                    <div class="campo">
+                        <label class="pronome">Pronome</label>
+                        <select id="select" class="pronome">
+                            <option selected disabled value="">Selecione</option>
+                            <option value="ele">Ele/Dele</option>
+                            <option value="ela">Ela/Dela</option>
+                            <option value="elu">Elu/Delu</option>
+                            <hr>
+                        </select>
+                    </div>
+                </div>
+
+                <fieldset class="agrupamento">
+                    <h3 style="display: inline-block; margin-top: 2%;">Formação acadêmica</h3>
+                    <button id="addschool" class="button" required style="height: 25px; width:25px"><strong>+</strong></button>
+                    <br>
+                    <div class="campo">
+                        <label for="curso">Curso*</label>
+                        <input type="text"  name ="curso" id = "curso" placeholder="Curso">
+                    </div>
+                    <div class="campo">
+                        <label for="instituicao">Instituição*</label>
+                        <input type="text"  name ="instituicao" id = "instituicao" placeholder="Instituição de Ensino">
+                    </div>
+                    <div class="campo">
+                        <label>Grau*</label>
+                        <select id="Grau" class="Grau">
+                        <option value="selecione" selected>Selecione</option>
+                        <option value="EnsinoFundamental">Ensino Fundamental</option>
+                        <option value="EnsinoMedio">Ensino Médio</option>
+                        <option value="tecnico">Técnico</option>
+                        <option value="graduacao">Graduação</option>
+                        <option value="pos-graduacao">Pós-Graduação</option>
+                        <option value="mestrado">Mestrado</option>
+                        <option value="doutorado">Doutorado</option>
+                        </select>
+                    </div>
+                    
+                    <div id="boxschool" class="boxschool">
+                        
+                    </div>
+                 
+                    
+                </fieldset>
+                
+            </div>
+  
+        </div>
+        <div class="right">
+            <fieldset class="agrupamento">
+                <h3>Tecnologias*</h3>
+                <div class="campo">
+                    <textarea name="tecnologias" id="tecnologias" placeholder="Tecnologias, linguagens e programas que você possui conhecimento." required style="height: 150px; width: 400px;"></textarea >
+                </div>
+            </fieldset>
+            <fieldset class="agrupamento">
+
+                <h3 style="display: inline-block;">Experiência Profissional</h3>
+                <button id="addwork" class="button" required style="height: 25px; width:25px">+</button>
+                <br>
+                <div class="campo">
+                    <label for="funcao_trabalho">Função*</label>
+                    <input type="text"  name="funcao_trabalho" id="funcao_trabalho" placeholder="Função">
+                </div>
+                <div class="campo">
+                    <label for="empresa">Empresa*</label>
+                    <input type="text"  name="empresa" id="empresa" placeholder="Empresa" >
+                </div>
+                <div class="campo"> 
+                    <label for="periodo_trabalho">Periodo*</label>
+                    <input type="text"  name= "periodo_trabalho" id = "periodo_trabalho" placeholder="1 ano e 6 meses" >
+                </div>
+                <div id="boxwork" class="boxwork">
+
+                </div>
+            </fieldset>
+            <div class="campo">
+                
+            <label>Sobre</label>
+            <textarea name="sobre" id="sobre" placeholder="Conte-nos um pouco sobre você." required style="height: 150px; width: 400px;"></textarea >
+            </div>
+            <button type="submit" onclick="enviar()" class="botao">Cadastrar</button>
+        
+        </div>
+      </section>
+
+    <footer>
+        <h2>Faculdade Senac © Todos os direitos reservados</h2>
+    </footer>  
+    <script src="tela2.js"></script>
+</body>
+</html>

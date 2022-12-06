@@ -1,0 +1,260 @@
+*
+{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #525252;;
+    padding: 0;
+    margin: 0;
+    /*background-color: rgb(235, 235, 235);*/
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #83ADDF;
+}
+
+header img
+{
+    margin-top: 5%;
+    margin-left: 120px;
+}
+
+section
+{
+    display: grid;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3%;
+}
+
+section .left
+{
+    position: relative;
+    margin-left: 150px;
+}
+
+section .right
+{
+    position: relative;
+    margin-left: 60px;
+}
+
+.logo{
+
+    margin-right: 60%;
+}
+
+#subtitulo{
+
+    margin-left: 0%;
+    font-family: sans-serif;
+    font-weight: bold
+}
+
+fieldset{
+    
+    border: 0;
+}
+
+select.pronome{
+    margin-left: 15%;
+}
+
+.cabecalho{
+    position: relative;
+}
+
+label.pronome{
+    margin-left: 15%;
+}
+
+.telefone
+{
+    display: flex;
+}
+
+.campo.pronome{
+    margin-left: 10%;
+}
+.campo{
+    margin-bottom: 1em;
+    margin-left: 2%;
+}
+
+.campo label{
+    
+    margin-bottom: 0.4em;
+    display: block;
+}
+
+h4{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+fieldset.agrupamento .campo{
+
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="number"], .campo select, .campo textarea{
+
+    padding: 0.4em;
+    border: 1px solid #A9A9A9;
+}
+
+input, select, textarea{
+    border-radius: 5px;
+}
+
+.direction{
+    display: flex;
+    flex-direction: row;
+}
+.position{
+    flex-direction: column;
+}
+.espacamento{
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.directionyes{
+    margin-left: 2%;
+}
+.directionno{
+    margin-left: 2%;
+}
+.inputimage{
+    border-radius: 5%;
+}
+
+form .left-side
+{
+    position: relative;
+}
+
+form .right-side
+{
+    position: relative;
+}
+
+.button{
+    border-radius: 50%;
+    border: 1px solid #414040;
+    color: #414040;
+    cursor: pointer;
+}
+
+.button:hover{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+    opacity: .8;
+    box-shadow: 3px 3px 3px #444;
+    transition-duration: 0.3s;
+}
+
+.botao
+{
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #525252;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #525252;
+}
+
+.botao:hover
+{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+    opacity: .8;
+    box-shadow: 3px 3px 3px #444;
+    transition-duration: 0.3s;
+}
+
+.campo input[name="telefone"]{
+    height: 15px; 
+    width: 170px;
+}
+
+.campo input[name="curso"]{
+    height: 15px; 
+    width: 400px;
+}
+
+.campo input[id="Rua"], .campo input[id="CEP"]{
+    height: 15px; 
+    width: 185px;
+}
+
+.campo input[name="empresa"]{
+    height: 15px;
+    width: 250px;
+}
+.campo input[name="instituicao"]{
+    height: 15px;
+    width: 230px;
+}
+
+.campo textarea[name="tecnologias"], .campo textarea[name="sobre"]{
+    height: 150px; width: 400px;
+}
+.campo input[name="periodo_trabalho"]{
+    height: 15px; 
+    width: 110px;
+}
+
+.campo input[name="funcao_trabalho"]{
+    height: 15px; 
+    width: 400px;
+}
+
+.boxschool, .boxwork{
+    padding-top: 2%;
+}
+
+.boxschool label, .boxwork label{
+    padding-top: 2%;
+}
+
+footer 
+{
+    margin-top: 2%;
+    padding: 20px 20px 65px 20px;
+    /*padding-bottom: 50px;*/
+    text-align: center;
+    background: #83ADDF;
+}
+  
+footer h2
+{
+    display:inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #D2D1D1;
+}
+
+.inputimage{
+    border-radius: 40px;
+}
+
+.validationError{
+    border: 1px solid red  !important;
+}
+
+.validationSucess{
+    border: 1px solid green !important;
+}

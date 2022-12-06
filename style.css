@@ -1,0 +1,294 @@
+*
+{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #525252;;
+    padding: 0;
+    margin: 0;
+    /*background-color: rgb(235, 235, 235);*/
+}
+
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #83ADDF;
+}
+
+header img
+{
+    display: flex;
+    margin-top: 6%; 
+}
+
+.bar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+}
+
+.inputs-nav
+{
+    display: flex;
+}
+
+.input-nav
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.1%;
+}
+
+.input-nav input
+{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: 1px solid;
+    color: #A4A4A4;
+    margin-left: 3px;
+}
+
+.fa-eye{
+    position: relative;
+    cursor: pointer;
+    top: -41px;
+    left: 202px;
+    color: #b1a2a2;
+}
+
+p{
+    color: #525252;
+    cursor: pointer;
+}
+
+.button-submit1
+{
+    display: flex;
+    
+}
+
+.button-submit1 input
+{
+    height: 32px; 
+    width: 80px;
+    background: #FFFFFF;
+    border: 1px solid #D2D1D1;
+    margin-left: 7%;
+}
+
+nav
+{
+    display: grid;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+
+nav .left
+{
+    position: relative;
+    margin-left: 12%;
+}
+
+.left img
+{
+    margin-top: 5%;
+}
+
+nav .right
+{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 8%;
+    margin-right: 500px;
+}
+
+.right h1
+{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.input-box
+{
+    display: flex;
+    margin-bottom: 1.1rem;
+}
+
+#senha2
+{
+    margin-left: 4px;
+}
+
+#nome
+{
+    margin-right: 0.3rem;
+}
+
+#cpf
+{
+    margin-right: 0.3rem;
+}
+
+.input-box input
+{
+    margin: 0.6rem 0;
+    padding: 0.5rem 1rem;
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+}
+
+.input-box input[id="senhatwo"]{
+    margin-left: 2%;
+}
+
+.box 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.selects select 
+{
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #A4A4A4;
+
+    cursor: pointer;
+}
+
+.campo select
+{
+    width: 235px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    cursor: pointer;
+}
+
+.campo label 
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #A4A4A4;
+
+    cursor: pointer;
+}
+
+.campo input 
+{
+    background: #A4A4A4;
+    cursor: pointer;
+}
+
+.termos
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 7%;
+}
+
+.termos p
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #A4A4A4;
+
+    width: 380px;
+}
+
+.termos a
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #A4A4A4;
+}
+
+.pessoa
+{
+    position: relative;
+    bottom: 0px;
+    top: 72px;
+    left: 175px;
+}
+
+.button-submit
+{
+    display: flex;
+    margin-top: 5%;
+    height: 35px;
+}
+
+.button-submit input
+{
+    padding: 0.5rem;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border: 1px solid #D2D1D1;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #525252;
+}
+
+.button-submit input[type="submit"]:hover, .button-submit1 input[type="submit"]:hover
+{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+    opacity: .8;
+    box-shadow: 3px 3px 3px #444;
+    transition-duration: 0.3s;
+}
+
+footer 
+{
+    padding: 20px 20px 50px 20px;
+    /*padding-bottom: 50px;*/
+    text-align: center;
+    background: #83ADDF;
+}
+  
+footer h2
+{
+    display:inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #D2D1D1;
+}
+
+.validationError{
+    border: 1px solid red  !important;
+}
+
+.validationSucess{
+    border: 1px solid green !important;
+}

@@ -1,0 +1,202 @@
+*
+{
+    font-family: 'Inter';
+    font-style: normal;
+    color: #525252;;
+    padding: 0;
+    margin: 0;
+    /*background-color: rgb(235, 235, 235);*/
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #83ADDF;
+}
+
+header img
+{
+    margin-top: 5%;
+    margin-left: 120px;
+}
+
+p
+{
+    margin-top: 3%;
+    margin-right: 100px;
+}
+
+section
+{
+    display: flex;
+}
+
+section h2
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    justify-content: right;
+}
+
+#logoacc
+{
+    margin-top: 105px;
+}
+
+.selects
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.selects-bar select
+{
+    margin-top: 20px;
+
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    width: 220px;
+    height: 30px;
+
+    color: #2B2A2A;
+}
+
+#area
+{
+    margin-left: 140px;
+}
+
+#conhecimentos
+{
+    margin-right: 140px;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.buttons input
+{
+    height: 30px;
+
+    background: #FFFFFF;
+    border: 1px solid #A4A4A4;
+    border-radius: 8px;
+}
+
+.buttons input[type="submit"]:hover
+{
+    cursor:pointer;
+    background:#ffc107;
+    color:#000;
+    transition-duration: 0.5s;
+}
+
+#bttarea
+{
+    margin-left: 150px;
+}
+
+#bttconhecimentos
+{
+    margin-right: 150px;
+}
+
+.tabela
+{
+    display: flex;
+    justify-content: center;
+
+    margin: 40px auto;
+    width: 1140px;
+
+    height: 400px;
+
+    border: 1px solid grey;
+
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.218);
+
+    Overflow-y:scroll;
+}
+
+.one:hover{
+    cursor:pointer;
+    background: rgb(201, 201, 201);
+    color:rgb(255, 255, 255);
+    transition: all .3s ease-out;
+}
+
+.one:hover{
+    cursor:pointer;
+    background: rgb(201, 201, 201);
+    color:rgb(255, 255, 255);
+    transition: all .3s ease-out;
+}
+
+.two:hover{
+    cursor:pointer;
+    background: rgb(201, 201, 201);
+    color:rgb(255, 255, 255);
+    transition: all .3s ease-out;
+}
+
+.three:hover{
+    cursor:pointer;
+    background: rgb(201, 201, 201);
+    color:rgb(255, 255, 255);
+    transition: all .3s ease-out;
+}
+
+.four:hover{
+    cursor:pointer;
+    background: rgb(201, 201, 201);
+    color:rgb(255, 255, 255);
+    transition: all .3s ease-out;
+}
+
+.five:hover{
+    cursor:pointer;
+    background: rgb(201, 201, 201);
+    color:rgb(255, 255, 255);
+    transition: all .3s ease-out;
+}
+
+.tabela td 
+{
+    text-align: center;
+    padding: 20px 70px;
+    border-bottom: 1px solid #2B2A2A;
+}
+
+footer 
+{
+    padding: 20px 20px 50px 20px;
+    /*padding-bottom: 50px;*/
+    text-align: center;
+    background: #83ADDF;
+}
+  
+footer h2
+{
+    display:inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #D2D1D1;
+}

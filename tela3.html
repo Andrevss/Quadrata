@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Usuários | Quadrata</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="tela 3.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" style="width: 63%;" alt="">
+      </div>
+    </header>
+
+    <section>
+        <div>
+            <img src="img/pessoas.png" alt="" style="margin-left: 140px">
+        </div>
+        <div>
+            <h2>Veja quais usuários mais se adequam as demandas de sua vaga</h2>
+            <h2></h2>
+        </div>
+        <div>
+            <img src="/img/Accenture-Logo.png" alt="" style="width: 6%;" id="logoacc">
+        </div>
+    </section>
+
+    <div class="selects">
+        <div class="selects-bar">
+            <select name="area" id="area">
+                <option value="valor1" selected>Selecione a área</option>
+                <option value="valor2">Tecnologia</option>
+                <option value="valor3">Administração</option>
+                <option value="valor4">Recursos Humanos</option>
+                <option value="valor5">Logística</option>
+            </select>
+        </div>
+        <div class="selects-bar">
+            <select name="nivel" id="nivel">
+                <option value="valor1" selected>Selecione o nível</option>
+                <option value="valor2">Médio</option>
+                <option value="valor3">Técnico</option>
+                <option value="valor4">Graduação</option>
+                <option value="valor5">Pós-graduação</option>
+            </select>
+        </div>
+        <div class="selects-bar">
+            <select name="localidade" id="localidade">
+                <option value="valor1" selected>Selecione a localidade</option>
+                <option value="valor2">Recife</option>
+                <option value="valor3">Salvador</option>
+                <option value="valor4">Natal</option>
+                <option value="valor5">São Paulo</option>
+            </select>
+        </div>
+        <div class="selects-bar">
+            <select name="conhecimentos" id="conhecimentos">
+                <option value="valor1" selected>Conhecimentos</option>
+                <option value="valor2">Front-end</option>
+                <option value="valor3">Departamento Pessoal</option>
+                <option value="valor4">C#</option>
+                <option value="valor5">Métodologia Ágil</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <div class="buttons-bar">
+            <input type="submit" style="width: 140px;" value="Ver todas as áreas" id="bttarea">
+        </div>
+        <div class="buttons-bar">
+            <input type="submit" style="width: 140px;" value="Ver todos os níveis">
+        </div>
+        <div class="buttons-bar">
+            <input type="submit" style="width: 140px;" value="Ver todas as localidades">
+        </div>
+        <div class="buttons-bar">
+            <input type="submit" value="Ver todos os conhecimentos" style="width: 160px;" id="bttconhecimentos">
+        </div>
+    </div>
+
+    <div class="tabela">
+        <table>
+            <tr>
+                <td>Nome</td>
+                <td>Área</td>
+                <td>Nível</td>
+                <td>Conhecimentos</td>
+                <td>Estado</td>
+            </tr>
+            <tr onclick="cadastrousuario1()" class="one">
+                <td>Usuário Um</td>
+                <td>Tech Recruiter</td>
+                <td>Sênior</td>
+                <td>Recrutamento e Seleção</td>
+                <td>Pernambuco</td>
+            </tr>
+            <tr class="two">
+                <td>Usuário Dois</td>
+                <td>Scrum Master</td>
+                <td>Pleno</td>
+                <td>Métodologia Ágil</td>
+                <td>Pernambuco</td>
+            </tr>
+            <tr class="three">
+                <td>Usuário Tres</td>
+                <td>Desenvolvedora</td>
+                <td>Júnior</td>
+                <td>Back-end</td>
+                <td>Pernambuco</td>
+            </tr>
+            <tr class="four">
+                <td>Usuário Quatro</td>
+                <td>Desenvolvedor</td>
+                <td>Júnior</td>
+                <td>Não Informado</td>
+                <td>Pernambuco</td>
+            </tr>
+            <tr class="five">
+                <td>Usuário Cinco</td>
+                <td>Gerente de Projetos</td>
+                <td>Sênior</td>
+                <td>Gestão de Projetos</td>
+                <td>Pernambuco</td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <h2>Faculdade Senac © Todos os direitos reservados</h2>
+      </footer>  
+      <script src="tela3.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+h1{
+    
+    color: #525252;
+    font: normal 40px 'Inter';
+    border-bottom: #525252 1px solid;
+}
+
+.details{
+    position: relative;
+    left: 50%;
+    top: 10%;
+}
+h2{
+    font: normal 15px arial;
+    color: #525252;
+}
+p{
+    color: #525252;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 18px;
+}
+header{
+    display: flex;
+    background:#83ADDF;
+    margin: -10px -30px;
+    align-items: center;
+}
+div#logo img{
+    display: flex;
+    justify-content: start;
+    margin: 28px 3px -2px 100px;
+    width: 62%;
+   
+}
+section#esquerda img{
+    margin: 5px -10px;
+}
+div#interface{
+    margin: 40px 120px;
+}
+section#esquerda{
+    display: block;
+    float: left;
+    width: 500px;
+}
+aside#direita{
+    display: block;
+    float: right;
+    width: 500px;
+    margin: 1px 1px;
+}
+
+.campo{
+    display: flex;
+    position: absolute;
+}
+
+.cabecalho{
+    margin-left: 30%;
+}
+footer#rodape{
+    clear: both;
+    text-align: center;
+    margin: -10px -50px;
+    padding: 10px 0px;
+    background:#83ADDF;
+}
+
+p{
+    text-align: justify;
+    padding-top: 0.5%;
+}
+
+.title{
+    font-size: 20pt;
+    padding-bottom: 1%;
+    padding-top: 5%;
+
+}
+.image{
+    position: relative;
+    border-radius: 40px;
+}
+
+.detalhes{
+    margin-top: 2%;
+}
+
+.information{
+    position: relative;
+    left: 10%;
+    top: 20%;
+    width: 100%;
+}
+
+footer#rodape{
+    clear: both;
+    text-align: center;
+    margin: -10px -50px;
+    background:#83ADDF;
+    padding: 20px 20px 50px 20px;
+}
+
+footer h2
+{
+    display:inline;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    color: #D2D1D1;
+}
+
